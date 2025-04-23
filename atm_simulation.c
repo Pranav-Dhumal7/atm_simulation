@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-// Initial balance
 float balance = 1000.0;
 
-// Function to check balance
 void check_balance() {
     printf("Your current balance is: $%.2f\n", balance);
 }
 
-// Function to withdraw money
 void withdraw_money() {
     float amount;
     printf("Enter the amount to withdraw: $");
@@ -24,7 +21,6 @@ void withdraw_money() {
     }
 }
 
-// Function to deposit money
 void deposit_money() {
     float amount;
     printf("Enter the amount to deposit: $");
@@ -38,7 +34,6 @@ void deposit_money() {
     }
 }
 
-// Main menu function
 void atm_menu() {
     int choice;
     
@@ -64,7 +59,7 @@ void atm_menu() {
                 break;
             case 4:
                 printf("Thank you for using our ATM service!\n");
-                return; // Exit the program
+                return;
             default:
                 printf("Invalid option! Please choose a valid option.\n");
         }
