@@ -24,4 +24,3 @@ The program uses a menu-based interface with loops and functions.
 
 ## Author
 Pranav Dhumal  
-BTech CSE - 1st Year
